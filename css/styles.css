@@ -315,6 +315,7 @@ color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .alll:hover{
     background-color: #404bbf;
@@ -335,12 +336,19 @@ color: #ffffff;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 .our-features{
     margin-bottom: 72px;
 }
 .qwe{
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.qwe:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 .rty{
     padding: 32px 16px;
@@ -370,6 +378,28 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.trans{
+    position: relative;
+    overflow: hidden;
+}
+.trans-p{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+}   
+.trans:hover .trans-p{
+    transform: translateY(0%);
 }
 /*футер*/
 .section-six{
@@ -401,4 +431,49 @@ color: #ffffff;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.fot-f{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+}
+.block-one{
+    max-width: 264px;
+}
+.block-two{
+    max-width: 208px;
+        margin: 0;
+        margin-right: 80px;
+}
+.sm-text{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.links-two{
+    display: flex;
+    gap: 16px;
+}
+.zzz{
+    width: 40px;
+    height: 40px;
+}
+.link-f{
+    width: 100%;
+    height: 100%;
+    background-color:  #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link-f:hover{
+    background-color: #31d0aa;
+}
+.svg-f{
+    fill: #f4f4fd ;
 }
