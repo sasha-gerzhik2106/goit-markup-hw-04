@@ -310,10 +310,11 @@ color: #ffffff;
 .alll{
     width: 100%;
     height: 100%;
-    background-color: #4d5ae5;
+    background-color: #404bbf;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .alll:hover{
     background-color: #404bbf;
