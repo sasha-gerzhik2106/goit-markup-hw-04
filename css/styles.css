@@ -308,6 +308,7 @@ color: #ffffff;
 .lll{
     width: 40px;
     height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .alll{
     width: 100%;
@@ -464,6 +465,7 @@ color: #ffffff;
 .zzz{
     width: 40px;
     height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-f{
     width: 100%;
@@ -483,5 +485,5 @@ color: #ffffff;
 }
 .svg-f{
     fill: #f4f4fd ;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
